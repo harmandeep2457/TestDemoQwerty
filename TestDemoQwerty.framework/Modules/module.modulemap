@@ -1,0 +1,11 @@
+framework module TestDemoQwerty {
+  umbrella header "TestDemoQwerty.h"
+
+  export *
+  module * { export * }
+}
+
+module TestDemoQwerty.Swift {
+    header "TestDemoQwerty-Swift.h"
+    requires objc
+}
